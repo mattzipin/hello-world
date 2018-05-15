@@ -1,7 +1,7 @@
 #!/bin/bash
 
-project_name="" # Name of project
-project_url="" # URL of project tarball
+project_name="hello-world" # Name of project
+project_url="https://github.com/mattzipin/hello-world/releases/download/1.0.0/matts-program.tar.gz" # URL of project tarball
 
 if python --version &> /dev/null; then
   if ls $HOME/.$project_name &> /dev/null; then
